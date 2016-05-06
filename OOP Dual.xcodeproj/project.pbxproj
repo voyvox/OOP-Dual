@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C9E93001CDD0D6B00BEE7B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9E92FF1CDD0D6B00BEE7B3 /* AppDelegate.swift */; };
+		9C9E93021CDD0D6B00BEE7B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9E93011CDD0D6B00BEE7B3 /* ViewController.swift */; };
+		9C9E93051CDD0D6B00BEE7B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C9E93031CDD0D6B00BEE7B3 /* Main.storyboard */; };
+		9C9E93071CDD0D6B00BEE7B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C9E93061CDD0D6B00BEE7B3 /* Assets.xcassets */; };
+		9C9E930A1CDD0D6B00BEE7B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C9E93081CDD0D6B00BEE7B3 /* LaunchScreen.storyboard */; };
+		9C9E93151CDD0D6B00BEE7B3 /* OOP_DualTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9E93141CDD0D6B00BEE7B3 /* OOP_DualTests.swift */; };
+		9C9E93201CDD0D6B00BEE7B3 /* OOP_DualUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9E931F1CDD0D6B00BEE7B3 /* OOP_DualUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9C9E93111CDD0D6B00BEE7B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C9E92F41CDD0D6B00BEE7B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C9E92FB1CDD0D6B00BEE7B3;
+			remoteInfo = "OOP Dual";
+		};
+		9C9E931C1CDD0D6B00BEE7B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C9E92F41CDD0D6B00BEE7B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C9E92FB1CDD0D6B00BEE7B3;
+			remoteInfo = "OOP Dual";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9C9E92FC1CDD0D6B00BEE7B3 /* OOP Dual.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OOP Dual.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C9E92FF1CDD0D6B00BEE7B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9C9E93011CDD0D6B00BEE7B3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9C9E93041CDD0D6B00BEE7B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9C9E93061CDD0D6B00BEE7B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9C9E93091CDD0D6B00BEE7B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9C9E930B1CDD0D6B00BEE7B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C9E93101CDD0D6B00BEE7B3 /* OOP DualTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OOP DualTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C9E93141CDD0D6B00BEE7B3 /* OOP_DualTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OOP_DualTests.swift; sourceTree = "<group>"; };
+		9C9E93161CDD0D6B00BEE7B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C9E931B1CDD0D6B00BEE7B3 /* OOP DualUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OOP DualUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C9E931F1CDD0D6B00BEE7B3 /* OOP_DualUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OOP_DualUITests.swift; sourceTree = "<group>"; };
+		9C9E93211CDD0D6B00BEE7B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C9E92F91CDD0D6B00BEE7B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C9E930D1CDD0D6B00BEE7B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C9E93181CDD0D6B00BEE7B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C9E92F31CDD0D6B00BEE7B3 = {
+			isa = PBXGroup;
+			children = (
+				9C9E92FE1CDD0D6B00BEE7B3 /* OOP Dual */,
+				9C9E93131CDD0D6B00BEE7B3 /* OOP DualTests */,
+				9C9E931E1CDD0D6B00BEE7B3 /* OOP DualUITests */,
+				9C9E92FD1CDD0D6B00BEE7B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9C9E92FD1CDD0D6B00BEE7B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C9E92FC1CDD0D6B00BEE7B3 /* OOP Dual.app */,
+				9C9E93101CDD0D6B00BEE7B3 /* OOP DualTests.xctest */,
+				9C9E931B1CDD0D6B00BEE7B3 /* OOP DualUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C9E92FE1CDD0D6B00BEE7B3 /* OOP Dual */ = {
+			isa = PBXGroup;
+			children = (
+				9C9E92FF1CDD0D6B00BEE7B3 /* AppDelegate.swift */,
+				9C9E93011CDD0D6B00BEE7B3 /* ViewController.swift */,
+				9C9E93031CDD0D6B00BEE7B3 /* Main.storyboard */,
+				9C9E93061CDD0D6B00BEE7B3 /* Assets.xcassets */,
+				9C9E93081CDD0D6B00BEE7B3 /* LaunchScreen.storyboard */,
+				9C9E930B1CDD0D6B00BEE7B3 /* Info.plist */,
+			);
+			path = "OOP Dual";
+			sourceTree = "<group>";
+		};
+		9C9E93131CDD0D6B00BEE7B3 /* OOP DualTests */ = {
+			isa = PBXGroup;
+			children = (
+				9C9E93141CDD0D6B00BEE7B3 /* OOP_DualTests.swift */,
+				9C9E93161CDD0D6B00BEE7B3 /* Info.plist */,
+			);
+			path = "OOP DualTests";
+			sourceTree = "<group>";
+		};
+		9C9E931E1CDD0D6B00BEE7B3 /* OOP DualUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9C9E931F1CDD0D6B00BEE7B3 /* OOP_DualUITests.swift */,
+				9C9E93211CDD0D6B00BEE7B3 /* Info.plist */,
+			);
+			path = "OOP DualUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C9E92FB1CDD0D6B00BEE7B3 /* OOP Dual */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C9E93241CDD0D6B00BEE7B3 /* Build configuration list for PBXNativeTarget "OOP Dual" */;
+			buildPhases = (
+				9C9E92F81CDD0D6B00BEE7B3 /* Sources */,
+				9C9E92F91CDD0D6B00BEE7B3 /* Frameworks */,
+				9C9E92FA1CDD0D6B00BEE7B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OOP Dual";
+			productName = "OOP Dual";
+			productReference = 9C9E92FC1CDD0D6B00BEE7B3 /* OOP Dual.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9C9E930F1CDD0D6B00BEE7B3 /* OOP DualTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C9E93271CDD0D6B00BEE7B3 /* Build configuration list for PBXNativeTarget "OOP DualTests" */;
+			buildPhases = (
+				9C9E930C1CDD0D6B00BEE7B3 /* Sources */,
+				9C9E930D1CDD0D6B00BEE7B3 /* Frameworks */,
+				9C9E930E1CDD0D6B00BEE7B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C9E93121CDD0D6B00BEE7B3 /* PBXTargetDependency */,
+			);
+			name = "OOP DualTests";
+			productName = "OOP DualTests";
+			productReference = 9C9E93101CDD0D6B00BEE7B3 /* OOP DualTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9C9E931A1CDD0D6B00BEE7B3 /* OOP DualUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C9E932A1CDD0D6B00BEE7B3 /* Build configuration list for PBXNativeTarget "OOP DualUITests" */;
+			buildPhases = (
+				9C9E93171CDD0D6B00BEE7B3 /* Sources */,
+				9C9E93181CDD0D6B00BEE7B3 /* Frameworks */,
+				9C9E93191CDD0D6B00BEE7B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C9E931D1CDD0D6B00BEE7B3 /* PBXTargetDependency */,
+			);
+			name = "OOP DualUITests";
+			productName = "OOP DualUITests";
+			productReference = 9C9E931B1CDD0D6B00BEE7B3 /* OOP DualUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C9E92F41CDD0D6B00BEE7B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = CraigNewcomb;
+				TargetAttributes = {
+					9C9E92FB1CDD0D6B00BEE7B3 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = ZQJ9D5KQ5K;
+					};
+					9C9E930F1CDD0D6B00BEE7B3 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = ZQJ9D5KQ5K;
+						TestTargetID = 9C9E92FB1CDD0D6B00BEE7B3;
+					};
+					9C9E931A1CDD0D6B00BEE7B3 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = ZQJ9D5KQ5K;
+						TestTargetID = 9C9E92FB1CDD0D6B00BEE7B3;
+					};
+				};
+			};
+			buildConfigurationList = 9C9E92F71CDD0D6B00BEE7B3 /* Build configuration list for PBXProject "OOP Dual" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9C9E92F31CDD0D6B00BEE7B3;
+			productRefGroup = 9C9E92FD1CDD0D6B00BEE7B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C9E92FB1CDD0D6B00BEE7B3 /* OOP Dual */,
+				9C9E930F1CDD0D6B00BEE7B3 /* OOP DualTests */,
+				9C9E931A1CDD0D6B00BEE7B3 /* OOP DualUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C9E92FA1CDD0D6B00BEE7B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C9E930A1CDD0D6B00BEE7B3 /* LaunchScreen.storyboard in Resources */,
+				9C9E93071CDD0D6B00BEE7B3 /* Assets.xcassets in Resources */,
+				9C9E93051CDD0D6B00BEE7B3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C9E930E1CDD0D6B00BEE7B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C9E93191CDD0D6B00BEE7B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C9E92F81CDD0D6B00BEE7B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C9E93021CDD0D6B00BEE7B3 /* ViewController.swift in Sources */,
+				9C9E93001CDD0D6B00BEE7B3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C9E930C1CDD0D6B00BEE7B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C9E93151CDD0D6B00BEE7B3 /* OOP_DualTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C9E93171CDD0D6B00BEE7B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C9E93201CDD0D6B00BEE7B3 /* OOP_DualUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9C9E93121CDD0D6B00BEE7B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C9E92FB1CDD0D6B00BEE7B3 /* OOP Dual */;
+			targetProxy = 9C9E93111CDD0D6B00BEE7B3 /* PBXContainerItemProxy */;
+		};
+		9C9E931D1CDD0D6B00BEE7B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C9E92FB1CDD0D6B00BEE7B3 /* OOP Dual */;
+			targetProxy = 9C9E931C1CDD0D6B00BEE7B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9C9E93031CDD0D6B00BEE7B3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C9E93041CDD0D6B00BEE7B3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9C9E93081CDD0D6B00BEE7B3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C9E93091CDD0D6B00BEE7B3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9C9E93221CDD0D6B00BEE7B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9C9E93231CDD0D6B00BEE7B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9C9E93251CDD0D6B00BEE7B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "OOP Dual/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CraigNewcomb.OOP-Dual";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9C9E93261CDD0D6B00BEE7B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "OOP Dual/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CraigNewcomb.OOP-Dual";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9C9E93281CDD0D6B00BEE7B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "OOP DualTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CraigNewcomb.OOP-DualTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OOP Dual.app/OOP Dual";
+			};
+			name = Debug;
+		};
+		9C9E93291CDD0D6B00BEE7B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "OOP DualTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CraigNewcomb.OOP-DualTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OOP Dual.app/OOP Dual";
+			};
+			name = Release;
+		};
+		9C9E932B1CDD0D6B00BEE7B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "OOP DualUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CraigNewcomb.OOP-DualUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "OOP Dual";
+			};
+			name = Debug;
+		};
+		9C9E932C1CDD0D6B00BEE7B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "OOP DualUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CraigNewcomb.OOP-DualUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "OOP Dual";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C9E92F71CDD0D6B00BEE7B3 /* Build configuration list for PBXProject "OOP Dual" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C9E93221CDD0D6B00BEE7B3 /* Debug */,
+				9C9E93231CDD0D6B00BEE7B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C9E93241CDD0D6B00BEE7B3 /* Build configuration list for PBXNativeTarget "OOP Dual" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C9E93251CDD0D6B00BEE7B3 /* Debug */,
+				9C9E93261CDD0D6B00BEE7B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9C9E93271CDD0D6B00BEE7B3 /* Build configuration list for PBXNativeTarget "OOP DualTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C9E93281CDD0D6B00BEE7B3 /* Debug */,
+				9C9E93291CDD0D6B00BEE7B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9C9E932A1CDD0D6B00BEE7B3 /* Build configuration list for PBXNativeTarget "OOP DualUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C9E932B1CDD0D6B00BEE7B3 /* Debug */,
+				9C9E932C1CDD0D6B00BEE7B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C9E92F41CDD0D6B00BEE7B3 /* Project object */;
+}
