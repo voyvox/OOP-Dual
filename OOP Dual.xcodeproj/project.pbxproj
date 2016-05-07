@@ -14,6 +14,7 @@
 		9C9E930A1CDD0D6B00BEE7B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C9E93081CDD0D6B00BEE7B3 /* LaunchScreen.storyboard */; };
 		9C9E93151CDD0D6B00BEE7B3 /* OOP_DualTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9E93141CDD0D6B00BEE7B3 /* OOP_DualTests.swift */; };
 		9C9E93201CDD0D6B00BEE7B3 /* OOP_DualUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9E931F1CDD0D6B00BEE7B3 /* OOP_DualUITests.swift */; };
+		9C9E932E1CDD10C500BEE7B3 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9E932D1CDD10C500BEE7B3 /* Character.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		9C9E931B1CDD0D6B00BEE7B3 /* OOP DualUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OOP DualUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C9E931F1CDD0D6B00BEE7B3 /* OOP_DualUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OOP_DualUITests.swift; sourceTree = "<group>"; };
 		9C9E93211CDD0D6B00BEE7B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C9E932D1CDD10C500BEE7B3 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				9C9E93061CDD0D6B00BEE7B3 /* Assets.xcassets */,
 				9C9E93081CDD0D6B00BEE7B3 /* LaunchScreen.storyboard */,
 				9C9E930B1CDD0D6B00BEE7B3 /* Info.plist */,
+				9C9E932D1CDD10C500BEE7B3 /* Character.swift */,
 			);
 			path = "OOP Dual";
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C9E932E1CDD10C500BEE7B3 /* Character.swift in Sources */,
 				9C9E93021CDD0D6B00BEE7B3 /* ViewController.swift in Sources */,
 				9C9E93001CDD0D6B00BEE7B3 /* AppDelegate.swift in Sources */,
 			);
@@ -408,6 +412,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.CraigNewcomb.OOP-Dual";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -419,6 +424,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.CraigNewcomb.OOP-Dual";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -487,6 +493,7 @@
 				9C9E93261CDD0D6B00BEE7B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9C9E93271CDD0D6B00BEE7B3 /* Build configuration list for PBXNativeTarget "OOP DualTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +502,7 @@
 				9C9E93291CDD0D6B00BEE7B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9C9E932A1CDD0D6B00BEE7B3 /* Build configuration list for PBXNativeTarget "OOP DualUITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +511,7 @@
 				9C9E932C1CDD0D6B00BEE7B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
