@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -51,7 +51,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="attackButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Zxs-bQ-NgF"/>
+                                    <action selector="attackPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ovk-sf-fBX"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2AE-54-AbV">
@@ -73,7 +73,7 @@
                                     </mask>
                                 </variation>
                                 <connections>
-                                    <action selector="attackButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fr0-j7-5ND"/>
+                                    <action selector="attackPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fmo-vH-DDi"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="player2" translatesAutoresizingMaskIntoConstraints="NO" id="a0F-zX-UbV">
@@ -105,7 +105,7 @@
                                 <rect key="frame" x="264" y="73" width="71" height="30"/>
                                 <state key="normal" title="REMATCH"/>
                                 <connections>
-                                    <action selector="rematch:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HLX-5w-g7T"/>
+                                    <action selector="rematchPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HXQ-Z5-hMN"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="player1" translatesAutoresizingMaskIntoConstraints="NO" id="Dr1-kn-o7k">
@@ -121,6 +121,24 @@
                                     </mask>
                                 </variation>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="20 HP" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rZU-h9-xI1">
+                                <rect key="frame" x="365" y="566" width="50" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="EoN-Ck-eBq"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="20 HP" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Xh-fM-7Zx">
+                                <rect key="frame" x="172" y="566" width="50" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="rsG-Cu-DTF"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -129,8 +147,11 @@
                             <constraint firstAttribute="trailing" secondItem="lZB-vY-PvO" secondAttribute="trailing" id="88N-NM-mdb"/>
                             <constraint firstAttribute="bottom" secondItem="2AE-54-AbV" secondAttribute="bottom" constant="-7" id="8EV-BW-Onq"/>
                             <constraint firstItem="lZB-vY-PvO" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="A1K-lH-13A"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="6Xh-fM-7Zx" secondAttribute="bottom" constant="13" id="CQH-sm-Lau"/>
+                            <constraint firstItem="2AE-54-AbV" firstAttribute="leading" secondItem="rZU-h9-xI1" secondAttribute="trailing" constant="8" id="FRo-zz-4xP"/>
                             <constraint firstItem="LSc-F1-z0n" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="GOS-Mu-9zh"/>
                             <constraint firstAttribute="trailing" secondItem="2AE-54-AbV" secondAttribute="trailing" constant="90" id="L6m-WH-9VK"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="rZU-h9-xI1" secondAttribute="bottom" constant="13" id="MOt-rh-mpc"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Dr1-kn-o7k" secondAttribute="bottom" constant="-3" id="NHh-tj-XPb"/>
                             <constraint firstItem="TZr-CX-psj" firstAttribute="leading" secondItem="Dr1-kn-o7k" secondAttribute="trailing" constant="94" id="NiB-wW-JtS"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="LSc-F1-z0n" secondAttribute="bottom" constant="-40" id="Oxf-i2-UHj"/>
@@ -140,6 +161,7 @@
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Dr1-kn-o7k" secondAttribute="bottom" constant="-20" id="V1b-2P-ScB"/>
                             <constraint firstItem="a0F-zX-UbV" firstAttribute="width" secondItem="a0F-zX-UbV" secondAttribute="height" multiplier="72:151" id="VLQ-NO-geC"/>
                             <constraint firstItem="2AE-54-AbV" firstAttribute="centerX" secondItem="a0F-zX-UbV" secondAttribute="centerX" id="WhX-5w-gFW"/>
+                            <constraint firstItem="6Xh-fM-7Zx" firstAttribute="leading" secondItem="fW5-3u-54C" secondAttribute="trailing" constant="8" id="Y7f-Gv-oJ8"/>
                             <constraint firstItem="8Oo-kI-UZ7" firstAttribute="centerY" secondItem="cyy-3Z-DL9" secondAttribute="centerY" id="a7N-LX-Xjh"/>
                             <constraint firstItem="TZr-CX-psj" firstAttribute="centerY" secondItem="LSc-F1-z0n" secondAttribute="centerY" id="bf2-l9-GFG"/>
                             <constraint firstItem="iWp-LB-LJB" firstAttribute="centerX" secondItem="cyy-3Z-DL9" secondAttribute="centerX" id="em3-JO-DdY"/>
@@ -173,6 +195,8 @@
                         <outlet property="attackButton1" destination="fW5-3u-54C" id="xgk-ZW-g2X"/>
                         <outlet property="attackButton2" destination="2AE-54-AbV" id="RmW-Au-YDb"/>
                         <outlet property="messageLabel" destination="iWp-LB-LJB" id="v29-Q6-BWn"/>
+                        <outlet property="player1HpLabel" destination="6Xh-fM-7Zx" id="9Yb-Mv-bw0"/>
+                        <outlet property="player2HpLabel" destination="rZU-h9-xI1" id="UdU-TB-qkZ"/>
                         <outlet property="rematchButton" destination="8Oo-kI-UZ7" id="si0-Jt-Cgc"/>
                     </connections>
                 </viewController>
