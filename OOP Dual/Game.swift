@@ -31,6 +31,12 @@ class Game: NSObject {
         if !player.isAlive {
             self.updateMessageLabel("\(player.name) died and lost!")
             _vc.rematchButton.hidden = false
+            if !_vc.player1.isAlive {
+                _vc.player1HpLabel.text = "0 HP"
+            } else {
+                _vc.player2HpLabel.text = "0 HP"
+            }
+            
         } else {
             self._vc.player1HpLabel.text = "\(_player1.hp) HP"
             self._vc.player2HpLabel.text = "\(_player2.hp) HP"
